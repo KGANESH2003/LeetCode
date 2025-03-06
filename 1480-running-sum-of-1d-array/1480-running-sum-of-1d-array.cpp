@@ -8,6 +8,5 @@ public:
             sum+=nums[i];
             res.push_back(sum);
         }return res;
-        
     }
 };
