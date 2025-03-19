@@ -1,8 +1,8 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        int original=x;
-        double reversed=0;
+        int original =x;
+        long reversed=0;
         while(x>0)
         {
             int digit=x%10;
@@ -12,6 +12,9 @@ public:
         if(original==reversed)
         {
             return true;
-        }return false;
+        }else{
+            return false;
+
+        }
     }
 };
